@@ -9,4 +9,10 @@ public class SimpleTests {
         int result = 2 + 2;
         Assert.assertEquals(result, 4, "Math check");
     }
+
+    @Test
+    public void verifyMath2() {
+        int result = 3 - 2;
+        Assert.assertEquals(result, 1, "Math check");
+    }
 }
